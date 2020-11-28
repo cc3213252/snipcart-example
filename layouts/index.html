@@ -1,14 +1,7 @@
 {{ partial "header.html" . }}
 <main class="products">
-  <!-- {{ range .Site.Data.products }}
-    {{ partial "product.html" . }}
-  {{ end }} -->
-  {{ $products := getJSON "ENDPOINT_URL" }}
-    {{ range $products }}
-    {{ partial "product.html" . }}
-  {{ end }}
-  <!-- {{ range where .Site.RegularPages "Section" "products"}}
+  {{ range where .Site.RegularPages "Section" "Products"}}
     {{ partial "product.html" .Params }}
-  {{ end }} -->
+  {{ end }}
 </main>
 {{ partial "footer.html" . }}
