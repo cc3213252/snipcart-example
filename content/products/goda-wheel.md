@@ -5,6 +5,6 @@ id = "GOUDA_WHEEL"
 image = "/images/gouda.jpg"
 name = "Gouda Wheel"
 price = 299
-product_url = "http://snipcart-hugo-forestery.netlify.com"
+product_url = "https://dazzling-booth-e373b0.netlify.app"
 
 +++
