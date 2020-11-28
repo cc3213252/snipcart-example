@@ -1,4 +1,41 @@
 ---
 label: product
 hide_body: true
-fields: []
+fields:
+- name: id
+  type: text
+  config:
+    required: false
+  label: id
+  description: 索引
+- name: name
+  type: text
+  config:
+    required: false
+  label: name
+  description: 名称
+- name: price
+  type: number
+  label: price
+  description: 价格
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: description
+  type: text
+  config:
+    required: false
+  label: description
+- name: image
+  type: text
+  config:
+    required: false
+  label: image
+- name: product_url
+  type: text
+  config:
+    required: false
+  label: product_url
