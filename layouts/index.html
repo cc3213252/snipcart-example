@@ -3,12 +3,12 @@
   <!-- {{ range .Site.Data.products }}
     {{ partial "product.html" . }}
   {{ end }} -->
-  <!-- {{ $products := getJSON "ENDPOINT_URL" }}
+  {{ $products := getJSON "ENDPOINT_URL" }}
     {{ range $products }}
     {{ partial "product.html" . }}
-  {{ end }} -->
-  {{ range where .Site.RegularPages "Section" "products"}}
-    {{ partial "product.html" .Params }}
   {{ end }}
+  <!-- {{ range where .Site.RegularPages "Section" "products"}}
+    {{ partial "product.html" .Params }}
+  {{ end }} -->
 </main>
 {{ partial "footer.html" . }}
