@@ -11,6 +11,9 @@ forestry中没有创建具体product的数据导致
 
 config.toml中baseURL的缘故
 
-## jquery.min.js:4 GET https://app.snipcart.com/api/sessions 401
+## 【ok】jquery.min.js:4 GET https://app.snipcart.com/api/sessions 401
 
 https://app.snipcart.com/dashboard/account/credentials
+没有使用snipcart功能时，可以先去掉  
+
+## 只显示标题和foot，没有内容，没有任何报错

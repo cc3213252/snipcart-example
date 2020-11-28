@@ -25,12 +25,12 @@ fields:
     max: 
     step: 
 - name: description
-  type: text
+  type: textarea
   config:
     required: false
   label: description
 - name: image
-  type: text
+  type: file
   config:
     required: false
   label: image

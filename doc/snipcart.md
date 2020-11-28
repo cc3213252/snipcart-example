@@ -18,3 +18,10 @@ scss
 ## 注意
 
 用了google字体
+
+## 自己提供后台方法
+
+{{ $products := getJSON "ENDPOINT_URL" }}
+  {{ range $products }}
+  {{ partial "product.html" . }}
+{{ end }}
