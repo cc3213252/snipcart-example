@@ -12,6 +12,6 @@
     "description": "Made out of highest graded ingredients, this cheese has been aged for three months and is sure you leave you with a sharp-tasting, natural taste.",
     "price": 4.95,
     "image": "/images/cheddar.jpg",
-    "url": "http://snipcart-hugo-forestery.netlify.com"
+    "product_url": "http://snipcart-hugo-forestery.netlify.com"
   }
 ]
