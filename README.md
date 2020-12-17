@@ -2,6 +2,7 @@
 
 cms用forestry，静态网站用hugo，结合购物车功能用snipcart，部署用netlify  
 snipcart用测试账号是免费的  
+收费账号收2%费用，同时提供web统计后台  
 
 ## 网站编辑方法
 
